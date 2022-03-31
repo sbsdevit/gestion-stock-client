@@ -1,0 +1,122 @@
+.facturation {
+    padding: 10px 15px;
+    display: flex;
+    align-items: baseline;
+}
+
+.produits-side,
+.facture-details,
+.default-values {
+    border-radius: 5px;
+    padding: 15px 20px;
+}
+
+.facture-details,
+.default-values {
+    background: white;
+    border: 1px solid #d9d9d9;
+}
+
+.default-values {
+    max-width: 400px;
+    min-width: 400px;
+    margin-right: 20px;
+}
+
+.denomination {
+    min-height: 35px;
+    background-color: #eeeeee;
+    max-width: 100%;   
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.taxes {
+    margin-top: 10px;
+}
+
+.taxe {
+    display: flex;
+    align-items: center;
+}
+
+.taxe > *:first-child {
+    margin-right: 15px;
+}
+
+.taxe:first-child {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.tva {
+    background-color: rgb(19 124 189 / 18%);
+    padding: 0px 10px;
+    display: inline-block;
+    font-size: 16px;
+    color: #181818;
+    border-radius: 19px;
+    margin-left: 10px;
+}
+
+.facture-details {
+    width: 100%;
+}
+
+.facture-details .form-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.facture-details > div:not(:last-child) {
+    margin-bottom: 20px
+}
+
+/* Selection des produits */
+
+.content-container {
+    width: 100%;
+    height: 100%;
+}
+
+.produits-side,
+.content-container header {
+    background-color: #fffffff5;
+    color: #333
+}
+
+.content-container header {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 20px;
+}
+
+.inner-facturation-content {
+    width: 100%;
+    height: calc(100% - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px
+}
+
+.produits-side {
+    height: 570px;
+    width: 550px;
+    overflow-y: auto;
+}
+
+.produits-side:first-child {
+    margin-right: 20px
+}
+
+.produits-list {
+    width: 100%;
+    /* margin-top: 20px */
+}
